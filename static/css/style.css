@@ -1,0 +1,60 @@
+/*
+ * Import nib
+ */
+/*
+ * Store the main color and
+ * background color as variables
+ */
+.navbar {
+  background-color: #ecf0f1;
+}
+.navbar li {
+  padding-right: 3%;
+}
+.navbar a:hover {
+  color: #d35400;
+}
+.navbar ul li > a {
+  color: #2ecc71;
+  padding-left: 0;
+}
+.angle-block {
+  background-color: #000;
+  position: absolute;
+  width: 38%;
+  top: 0;
+  right: 0;
+  border-bottom: 60px solid #2ecc71;
+  border-left: 60px solid #ecf0f1;
+}
+.angle-block-stripe {
+  background-color: #ecf0f1;
+  width: 5%;
+  min-height: 60px;
+  -webkit-transform: skewY(-45deg);
+  -moz-transform: skewY(-45deg);
+  -o-transform: skewY(-45deg);
+  -ms-transform: skewY(-45deg);
+  transform: skewY(-45deg);
+  -webkit-transform: skewX(-45deg);
+  -moz-transform: skewX(-45deg);
+  -o-transform: skewX(-45deg);
+  -ms-transform: skewX(-45deg);
+  transform: skewX(-45deg);
+  position: absolute;
+  top: 0;
+  right: 90%;
+}
+body {
+  background-color: #ecf0f1;
+}
+.subheader {
+  line-height: 1.4;
+  color: #6f6f6f;
+  font-weight: 300;
+  margin-top: 0.2em;
+  margin-bottom: 0.5em;
+}
+.footer {
+  color: #c0c0c0;
+}

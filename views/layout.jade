@@ -1,0 +1,30 @@
+!!!5
+html
+   head
+      title Clurictec - #{title}
+      link(rel="stylesheet", href="css/gumby.css")
+      link(rel='stylesheet', href='css/style.css')
+   body
+      div
+         .navbar.row
+            ul
+               li
+                  a(href="/") Clurictec
+               li
+                  a(href="/blog") Blog
+               li
+                  a(href="/projects") Projects
+               li
+                  a(href="/resume") Résumé
+         div.angle-block
+            div.angle-block-stripe
+
+      .container.row
+         .main-content.six.columns
+            block content
+         .sidebar.push_two.four.columns
+            block sidebar
+      footer
+         .row
+            p.footer
+               | Running on node with Express, Jade and Stylus

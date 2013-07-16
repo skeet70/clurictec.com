@@ -1,0 +1,57 @@
+/*
+ * Import nib
+ */
+@import 'nib'
+
+/*
+ * Store the main color and
+ * background color as variables
+ */
+main-color = #2ecc71
+background-color = #ecf0f1
+nav-hover = #27ae60
+
+.navbar
+  background-color background-color
+
+  li
+    padding-right 3%
+
+  a:hover
+    color #d35400
+
+.navbar ul li > a
+  color main-color
+  padding-left 0
+
+.angle-block
+  background-color black
+  position absolute
+  width 38%
+  top 0
+  right 0
+  border-bottom 60px solid main-color
+  border-left 60px solid background-color
+
+.angle-block-stripe
+  background-color background-color
+  width 5%
+  min-height 60px
+  transform: skewY(-45deg);
+  transform: skewX(-45deg)
+  position absolute
+  top 0
+  right 90%
+
+body
+  background-color background-color
+
+.subheader
+  line-height 1.4
+  color #6f6f6f
+  font-weight 300
+  margin-top 0.2em
+  margin-bottom 0.5em
+
+.footer
+  color silver
