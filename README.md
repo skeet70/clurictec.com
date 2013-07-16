@@ -8,4 +8,4 @@ individual application.
 I'm also hoping to use this site as a platform to play around with asynchronous
 web technologies.
 
-This is also meant to be a development exapmle for potential employers.
+This is also meant to be a development example for potential employers.
