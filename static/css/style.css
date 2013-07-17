@@ -55,6 +55,9 @@ body {
   margin-top: 0.2em;
   margin-bottom: 0.5em;
 }
+.keywords {
+  font-weight: 100;
+}
 .footer {
   color: #c0c0c0;
 }
