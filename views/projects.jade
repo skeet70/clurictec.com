@@ -1,13 +1,144 @@
 extend layout
 block content
-   h2 Projects
-   h4.subheader
-      | Projects will go here. This will most
-      | likely be a list of links to Github repos,
-      | with descriptions, as well as anything
-      | I get published, or do professionally.
+  h2 Projects
+
+  h4.subheader
+    a(href="https://github.com/skeet70/tiles") tiles
+  p
+    | This is my current project. Tiles is a Bananagrams-like word game,
+    | intended to be played multiplayer over social networks, on phones, and
+    | on the desktop. My goal with this project is to get comfortable with
+    | <a href="http://nodejs.org/">node</a>, <a href="https://github.com/appjs/appjs">app.js</a>,
+    | and HTML5 canvas.
+  br
+  h5 Tech:
+  ul
+    li JavaScript
+    li App.js
+    li Node.js
+    li HTML5
+    li CSS3
+
+  h4.subheader
+    a(href="https://github.com/skeet70/pascal-compiler") pascal compiler
+  p
+    | This was the capstone programming project for my degree at
+    | <a href="http://montana.edu">Montana State University</a>. The project
+    | was to work as a team (with <a href="http://tylerh.org">Tyler Huffman</a>
+    | and <a href="https://github.com/Gabrinthei">James Sonntag</a>)
+    | to build a functioning compiler for a subset of the Pascal programming
+    | language. We chose to do it in Haskell to challenge ourselves, none of
+    | us having any functional programming experience. I learned a lot, and
+    | had fun doing it.
+  br
+  h5 Tech:
+  ul
+    li Haskell
+    li Functional Programming
+    li Compiler Construction
+
+  h4.subheader
+    a(href="https://github.com/skeet70/application-server-benchmarks") application server benchmarks
+  p
+    | I did this for a technical writing assignment that I went a bit
+    | overboard on. It's a ping-pong server implemented in several different
+    | languages using several different server packages. I benchmarked these
+    | servers to try to compare performance between similar server solutions.
+    | The paper written describing methods and results can be found
+    | <a href="https://docs.google.com/document/d/1dU-juYN25FMXdp6Ju62KAIT_0tuuZAPEgZkj-aT6kPQ">here</a>.
+  br
+  h5 Tech:
+  ul
+    li Ruby
+    li Python
+    li Node
+    li Application Servers
+
+  h4.subheader
+    a(href="https://github.com/skeet70/django-markdown-video") django markdown video
+  p
+    | One of the first decisions I had a voice in while working on
+    | <a href="https://www.productfunder.com">Product Funder</a> was the choice
+    | to use Markdown syntax for all our user input. We thought it was a great
+    | way to allow users formatting freedom, while staying away from broken
+    | web WYSIWYG implementations. Unfortunately there's no support for video
+    | embedding in the Markdown spec, so I used this script written by
+    | <a href="http://www.tylerlesmann.com/2009/apr/02/python-markdown-extension-video/">Tyler Lesmann</a>
+    | to create a Django module/template tag that allows video embedding in
+    | Markdown text fields.
+
+  br
+  h5 Tech:
+  ul
+    li Python
+    li Django
 
 block sidebar
-    h2 Notes
-    p
-       | Also pretty cool!
+  h2 OSS Contributions
+
+  h4.subheader
+    a(href="https://github.com/skeet70/brabeion") brabeion
+  p
+    | I wanted to use this gamification module for work, so I patched it up
+    | to a working state. My changes were eventually pulled into master.
+  br
+  h5 Tech:
+  ul
+    li Python
+    li Django
+
+  h4.subheader
+    a(href="https://github.com/skeet70/gmusic_playlist_export") gmusic playlist export
+  p
+    | This was a project with
+    | <a href="http://github.com/sabrsorensen">Sam Sorensen</a>. He wanted a
+    | quick and fun project to work on that would also be useful, and asked
+    | for my help. This script creates local <code>.m3u</code> playlists
+    | based on your Google Music playlists.
+  br
+  h5 Tech:
+  ul
+    li Python
+
+  h4.subheader
+    a(href="https://github.com/skeet70/django-gravatar") django gravatar
+  p
+    | We used this Django module for user avatars in production at
+    | <a href="https://www.productfunder.com">Product Funder</a>. When we
+    | made the switch to <a href="http://blog.artlogic.com/2013/05/22/to-ssl-or-not-to-ssl/">HTTPS site wide</a>
+    | I tweaked the module to support HTTPS connections to Gravatar. These
+    | changes were also accepted into master.
+  br
+  h5 Tech:
+  ul
+    li Python
+    li Django
+
+  h4.subheader
+    a(href="https://github.com/skeet70/unknown-horizons/tree/gui_enhancements_sync") unknown horizons
+  p
+    | I wanted to try working on a video game, but didn't get very far. I
+    | made some additions that got the game running on x64 Mac's, and updated
+    | their Mac OSX installation from source page to work with
+    | <a href="http://mxcl.github.io/homebrew/">homebrew</a> instead of
+    | MacPorts.
+  br
+  h5 Tech:
+  ul
+    li Python
+    li FIFE Engine
+
+  h4.subheader
+    a(href="https://github.com/skeet70/django-cities-reduced-fat") django cities reduced fat
+  p
+    | I tried out this module while prototyping location support for a
+    | project. Only cities and countries were supported, so for use with US
+    | locations I added in support for regions as well.
+    | <a href="https://github.com/jpic">James Pic</a> quickly merged my
+    | additions into the original, so my fork is now deprecated.
+  br
+  h5 Tech:
+  ul
+    li Python
+    li Django
+    li GeoNames
